@@ -86,7 +86,6 @@ skillforge/
 │   ├── 📂 sdk/                      # @skillforge/sdk — TypeScript SDK
 │   └── 📂 widget/                   # @skillforge/widget — No-code 嵌入组件
 │
-├── 📂 docs/                         # 项目文档
 └── 📄 pnpm-workspace.yaml           # Monorepo 配置
 ```
 
