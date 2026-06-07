@@ -6,7 +6,7 @@
 
 *基于 Polygon 区块链的链上技能凭证发行、验证与激励系统*
 
-<img width="1919" height="698" alt="image" src="https://github.com/user-attachments/assets/12f3ff66-53c5-4233-9779-a5ccb501c902" />
+
 
 
 [![Polygon](https://img.shields.io/badge/Polygon-Amoy-8247E5?logo=polygon&logoColor=white)](https://polygon.technology/)
@@ -19,7 +19,7 @@
 [English](./README_EN.md) | 中文
 
 </div>
-
+<img width="1919" height="698" alt="image" src="https://github.com/user-attachments/assets/12f3ff66-53c5-4233-9779-a5ccb501c902" />
 ---
 
 ## 🎯 项目简介
