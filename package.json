@@ -1,0 +1,13 @@
+{
+  "name": "skillforge",
+  "private": true,
+  "scripts": {
+    "contracts:build": "pnpm --filter @skillforge/contracts compile",
+    "contracts:test": "pnpm --filter @skillforge/contracts test",
+    "web:dev": "pnpm --filter @skillforge/web dev",
+    "web:build": "pnpm --filter @skillforge/web build",
+    "sdk:build": "pnpm --filter @skillforge/sdk build",
+    "sdk:test": "pnpm --filter @skillforge/sdk test",
+    "widget:build": "pnpm --filter @skillforge/widget build"
+  }
+}

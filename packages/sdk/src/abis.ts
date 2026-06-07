@@ -1,0 +1,42 @@
+export const SKILL_REGISTRY_ABI = [
+  "function registerIssuer(string metadataCID) external",
+  "function deregisterIssuer(address issuer) external",
+  "function isIssuer(address) external view returns (bool)",
+  "function createTemplate(string name, string description, string metadataURI) external returns (uint256)",
+  "function deactivateTemplate(uint256 templateId) external",
+  "function issueCredential(address to, uint256 templateId, uint256 expiresAt, string _tokenURI) external returns (uint256)",
+  "function revokeCredential(uint256 tokenId) external",
+  "function verifyCredential(uint256 tokenId) external view returns (bool isValid, string reason)",
+  "function getCredentialsByAddress(address account) external view returns (uint256[] memory)",
+  "function getTemplate(uint256 templateId) external view returns (tuple(address issuer, string name, string description, string metadataURI, bool active, uint256 createdAt))",
+  "function getCredential(uint256 tokenId) external view returns (tuple(uint256 templateId, address recipient, address issuer, uint256 issuedAt, uint256 expiresAt, bool revoked, string tokenURI))",
+  "function totalCredentials() external view returns (uint256)",
+  "function totalTemplates() external view returns (uint256)",
+  "function locked(uint256 tokenId) external view returns (bool)",
+  "function tokenURI(uint256 tokenId) external view returns (string)",
+  "event IssuerRegistered(address indexed issuer, string metadataCID)",
+  "event TemplateCreated(uint256 indexed templateId, address indexed issuer, string name)",
+  "event CredentialIssued(uint256 indexed tokenId, address indexed recipient, uint256 indexed templateId)",
+  "event CredentialRevoked(uint256 indexed tokenId)",
+] as const;
+
+export const SHARP_TOKEN_INTEGRATOR_ABI = [
+  "function earnTokens(address to, uint256 amount, string reason) external",
+  "function spendTokens(address from, uint256 amount, string purpose) external",
+  "function buyTokens() external payable",
+  "function issuerReward() external view returns (uint256)",
+  "function recipientReward() external view returns (uint256)",
+  "function verificationFee() external view returns (uint256)",
+  "function tokensPerMatic() external view returns (uint256)",
+  "function sharpToken() external view returns (address)",
+  "event TokensEarned(address indexed to, uint256 amount, string reason)",
+  "event TokensSpent(address indexed from, uint256 amount, string purpose)",
+  "event TokensBought(address indexed buyer, uint256 maticAmount, uint256 tokenAmount)",
+] as const;
+
+export const SHARP_TOKEN_ABI = [
+  "function balanceOf(address account) external view returns (uint256)",
+  "function approve(address spender, uint256 amount) external returns (bool)",
+  "function allowance(address owner, address spender) external view returns (uint256)",
+  "function transfer(address to, uint256 amount) external returns (bool)",
+] as const;
