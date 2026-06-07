@@ -5,7 +5,7 @@
 **去中心化技能认证与激励平台**
 
 *基于 Polygon 区块链的链上技能凭证发行、验证与激励系统*
-![Uploading image.png…]()
+
 
 
 [![Polygon](https://img.shields.io/badge/Polygon-Amoy-8247E5?logo=polygon&logoColor=white)](https://polygon.technology/)
