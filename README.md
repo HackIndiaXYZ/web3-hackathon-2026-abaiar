@@ -15,9 +15,9 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
 [![Tests](https://img.shields.io/badge/Tests-41%2F41-brightgreen)](./contracts/test)
-
-[English](./README_EN.md) | 中文
 <img width="1919" height="698" alt="image" src="https://github.com/user-attachments/assets/12f3ff66-53c5-4233-9779-a5ccb501c902" />
+[English](./README_EN.md) | 中文
+
 </div>
 
 ---
