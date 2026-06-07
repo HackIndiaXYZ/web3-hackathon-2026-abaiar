@@ -17,9 +17,9 @@
 [![Tests](https://img.shields.io/badge/Tests-41%2F41-brightgreen)](./contracts/test)
 
 [English](./README_EN.md) | 中文
-
-</div>
 <img width="1919" height="698" alt="image" src="https://github.com/user-attachments/assets/12f3ff66-53c5-4233-9779-a5ccb501c902" />
+</div>
+
 ---
 
 ## 🎯 项目简介
